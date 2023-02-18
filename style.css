@@ -358,7 +358,7 @@ template {
   background-image: url("./images/leaves.jpg");
   background-repeat: no-repeat;
   background-size: 37rem 100%;
-  width: 37rem;
+  min-width: 37rem;
   height: 100vh;
 }
 
