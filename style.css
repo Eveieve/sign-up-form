@@ -351,7 +351,9 @@ template {
 [hidden] {
   display: none;
 }
-
+* {
+  border: 2px solid coral;
+}
 .left {
   background-image: url("./images/leaves.jpg");
   background-repeat: no-repeat;
@@ -365,6 +367,7 @@ body {
 }
 
 header {
+  height: 7rem;
   font-size: 3rem;
   color: white;
   font-weight: 900;
@@ -372,4 +375,5 @@ header {
   top: 12rem;
   text-align: center;
   font-family: "Space Mono", monospace;
+  background-color: rgba(65, 65, 65, 0.712);
 }
