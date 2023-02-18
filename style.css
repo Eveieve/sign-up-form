@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&family=Playfair+Display&family=Space+Mono&family=Tiro+Telugu&display=swap");
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -350,9 +352,6 @@ template {
   display: none;
 }
 
-* {
-  border: 2px solid coral;
-}
 .left {
   background-image: url("./images/leaves.jpg");
   background-repeat: no-repeat;
@@ -363,4 +362,14 @@ template {
 
 body {
   display: flex;
+}
+
+header {
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+  position: relative;
+  top: 12rem;
+  text-align: center;
+  font-family: "Space Mono", monospace;
 }
