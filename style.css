@@ -356,14 +356,13 @@ template {
 } */
 .login {
   background-color: antiquewhite;
-  padding-left: 2rem;
+  padding-left: 3rem;
   padding-right: 20rem;
   padding-bottom: 2rem;
 }
 form {
-  /* background-color: antiquewhite; */
   display: flex;
-  gap: 3rem;
+  gap: 6rem;
   row-gap: 1rem;
 
   flex-wrap: wrap;
