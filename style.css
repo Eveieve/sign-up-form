@@ -354,6 +354,12 @@ template {
 /* * {
   border: 2px solid coral;
 } */
+
+form {
+  background-color: antiquewhite;
+  display: flex;
+  flex-wrap: wrap;
+}
 .left {
   background-image: url("./images/leaves.jpg");
   background-repeat: no-repeat;
