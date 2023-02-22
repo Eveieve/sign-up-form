@@ -354,10 +354,18 @@ template {
 /* * {
   border: 2px solid coral;
 } */
-
-form {
+.login {
   background-color: antiquewhite;
+  padding-left: 2rem;
+  padding-right: 20rem;
+  padding-bottom: 2rem;
+}
+form {
+  /* background-color: antiquewhite; */
   display: flex;
+  gap: 3rem;
+  row-gap: 1rem;
+
   flex-wrap: wrap;
 }
 .left {
@@ -369,7 +377,7 @@ form {
 }
 .right {
   display: grid;
-  grid-template-rows: 1.2fr 1fr 1.2fr;
+  grid-template-rows: 0.9fr 0.8fr 1fr;
 }
 body {
   display: flex;
