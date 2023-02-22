@@ -351,9 +351,9 @@ template {
 [hidden] {
   display: none;
 }
-* {
+/* * {
   border: 2px solid coral;
-}
+} */
 .left {
   background-image: url("./images/leaves.jpg");
   background-repeat: no-repeat;
@@ -361,7 +361,10 @@ template {
   min-width: 37rem;
   height: 100vh;
 }
-
+.right {
+  display: grid;
+  grid-template-rows: 1.2fr 1fr 1.2fr;
+}
 body {
   display: flex;
 }
