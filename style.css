@@ -364,7 +364,7 @@ main {
   align-items: center;
   font-size: 1.5rem;
   padding-left: 3rem;
-  padding-right: 3rem;
+  padding-right: 15rem;
   background-color: var(--background);
 }
 .login {
@@ -415,8 +415,14 @@ button {
   margin: 3rem;
   margin-top: 2rem;
   border-radius: 0.5rem;
+  margin-bottom: 0;
 }
-
+button:active {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
 input {
   border-radius: 0.2rem;
   border: var(--input-border);
@@ -439,8 +445,14 @@ input:focus {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border: var(--input-border);
 }
-
+input:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 label {
   font-size: 0.9rem;
   color: rgb(88, 88, 88);
+}
+
+.already {
+  padding-left: 3rem;
 }
