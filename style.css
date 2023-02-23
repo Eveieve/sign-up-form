@@ -415,11 +415,18 @@ button {
   border-radius: 0.5rem;
 }
 
+.three {
+  background-color: var(--background);
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
 input {
   border-radius: 0.2rem;
   border: var(--input-border);
-}
-
-.three {
-  background-color: var(--background);
 }
