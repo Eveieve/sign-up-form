@@ -426,6 +426,7 @@ button:hover {
 input {
   border-radius: 0.2rem;
   border: var(--input-border);
+  outline: none;
 }
 
 .three {
